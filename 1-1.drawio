@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.5">
+  <diagram name="第 1 页" id="1LgpfkEn9ajVqd19Rxwg">
+    <mxGraphModel dx="1042" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q5wam1iAje1aUxr4eK8b-1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;labelBackgroundColor=none;" value="开始: 学生扫码" vertex="1">
+          <mxGeometry height="39" width="131" x="303" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="APP发送借伞请求" vertex="1">
+          <mxGeometry height="54" width="183" x="277" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" value="服务器查询&#xa;学生信用数据库" vertex="1">
+          <mxGeometry height="190" width="190" x="273" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="发送拒绝信息到APP" vertex="1">
+          <mxGeometry height="54" width="199" x="20" y="1053" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-5" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;labelBackgroundColor=none;" value="结束" vertex="1">
+          <mxGeometry height="39" width="57" x="335" y="1157" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="服务器向雨伞柜&#xa;发送解锁指令" vertex="1">
+          <mxGeometry height="78" width="172" x="404" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" value="雨伞柜状态检测" vertex="1">
+          <mxGeometry height="166" width="166" x="407" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="自动打印报修单" vertex="1">
+          <mxGeometry height="54" width="172" x="277" y="949" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="维护人员手工处理" vertex="1">
+          <mxGeometry height="54" width="188" x="269" y="1053" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="机械锁自动打开" vertex="1">
+          <mxGeometry height="54" width="172" x="531" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="服务器生成借伞电子凭证" vertex="1">
+          <mxGeometry height="54" width="236" x="499" y="949" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="凭证存入数据库" vertex="1">
+          <mxGeometry height="54" width="172" x="531" y="1053" as="geometry" />
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-13" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-14" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-15" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.77;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-4" value="信用分 &lt; 60">
+          <mxGeometry relative="1" x="0.0002" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="120" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-16" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.37;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-17" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-6" value="信用分 &gt;= 60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-18" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-19" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-7" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-8" value="硬件故障">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="363" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-20" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-21" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-22" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-7" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-10" value="正常运行">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="617" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-23" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-24" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5wam1iAje1aUxr4eK8b-25" edge="1" parent="1" source="q5wam1iAje1aUxr4eK8b-12" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.99;entryY=0.37;rounded=0;labelBackgroundColor=none;fontColor=default;" target="q5wam1iAje1aUxr4eK8b-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="617" y="1132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
